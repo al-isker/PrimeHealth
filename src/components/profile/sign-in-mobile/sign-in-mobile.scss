@@ -1,0 +1,30 @@
+@import '../../../styles/colors';
+
+.sign-in_mobile {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  fill: $dark-4;
+  color: $dark-4;
+  transition: 0.05s;
+
+  &:hover {
+    fill: $primary;
+    color: $primary;
+    transition: 0.05s;
+  }
+
+  &__icon {
+    width: 34px;
+    height: 34px;
+  }
+
+  &__caption {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+}

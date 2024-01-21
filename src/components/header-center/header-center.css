@@ -1,0 +1,16 @@
+.header-center {
+  box-sizing: content-box;
+  height: 50px;
+  padding: 12px 0;
+  background-color: #fff;
+  border-bottom: 2px solid #eaeaea;
+}
+.header-center__wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+/*# sourceMappingURL=header-center.css.map */

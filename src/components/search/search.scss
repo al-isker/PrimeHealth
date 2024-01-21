@@ -1,0 +1,39 @@
+@import '../../styles/colors';
+
+.search {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid $primary;
+  border-radius: 6px;
+  overflow: hidden;
+
+  &__input {
+    width: calc(100% - 140px);
+    height: 100%;
+    font-size: 16px;
+    padding: 0 15px;
+  }
+
+  &__btn-reset {
+    width: 40px;
+    height: 100%;
+    fill: $light-4;
+  }
+
+  &__btn-search {
+    width: 100px;
+    height: 100%;
+    background-color: $primary;
+    fill: $white;
+  }
+
+  &__icon {
+    display: block;
+    margin: auto;
+    height: 30px;
+    width: 30px;
+  }
+}

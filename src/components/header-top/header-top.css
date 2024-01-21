@@ -1,0 +1,30 @@
+.header-top {
+  height: 30px;
+  background-color: #f6623e;
+}
+.header-top__wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.header-top__address-block, .header-top__number-block {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.header-top__icon {
+  width: 18px;
+  height: 18px;
+  fill: #fff;
+}
+.header-top__address {
+  font-weight: 400;
+  font-size: 14px;
+}
+.header-top__number {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=header-top.css.map */
