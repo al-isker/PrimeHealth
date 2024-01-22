@@ -5,8 +5,6 @@ import "./search.css";
 import magnifier from "../../img/icons/magnifier.svg";
 import closeSmall from "../../img/icons/close-small.svg";
 
-
-
 const Search = () => {
     return (
         <div className="search">
